@@ -1,2 +1,9 @@
 import { app } from '../server.js';
-export default app;
+
+function restaurarRota(req) {
+  const url = new URL(req.url || '/', 'http://localhost' );
+  const rota = url.searchParams.get('__route');
+  if (!rota) return;
+  url.searchParams.delete('__route');
+  req.url = `/api/${rota.replace(/^\/+/, '')}${url.search ? url.search : ''}`;
+}
