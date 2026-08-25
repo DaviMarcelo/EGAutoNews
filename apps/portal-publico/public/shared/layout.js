@@ -28,38 +28,7 @@
             <li><a href="${link('feiras/index.html')}"${active('feiras')}>Parceiros</a></li>
             <li><a href="${link('noticias/index.html')}"${active('noticias')}>Notícias</a></li>
             <li><a href="${link('feirantes/index.html')}"${active('feirantes')}>Videos</a></li>
-            <li class="menu-solucoes">
-              <a href="${link('index.html#solucoes-feira')}" aria-haspopup="true" aria-expanded="false">Soluções</a>
-              <div class="menu-solucoes-dropdown" role="menu" aria-label="Soluções para sua feira">
-                <h3 class="solucoes-menu-titulo">Soluções para sua feira</h3>
-                <div class="solucao-menu-item" tabindex="0" role="menuitem">
-                  <strong>🏗️ Estrutura</strong><span>Barracas, tendas, mesas, iluminação e geradores.</span>
-                </div>
-                <div class="solucao-menu-item" tabindex="0" role="menuitem">
-                  <strong>🧹 Limpeza</strong><span>Coleta de lixo, banheiros químicos, dedetização e manutenção.</span>
-                </div>
-                <div class="solucao-menu-item" tabindex="0" role="menuitem">
-                  <strong>🔒 Segurança</strong><span>Vigilância, câmeras, brigadistas e controle de acesso.</span>
-                </div>
-                <div class="solucao-menu-item" tabindex="0" role="menuitem">
-                  <strong>🚚 Transporte</strong><span>Fretes, carretos, entregas e armazenamento.</span>
-                </div>
-                <div class="solucao-menu-item" tabindex="0" role="menuitem">
-                  <strong>💳 Tecnologia</strong><span>Maquininhas, Pix, sistemas de vendas e internet.</span>
-                </div>
-                <div class="solucao-menu-item" tabindex="0" role="menuitem">
-                  <strong>📢 Marketing</strong><span>Divulgação, redes sociais, fotos, vídeos e materiais gráficos.</span>
-                </div>
-                <div class="solucao-menu-item" tabindex="0" role="menuitem">
-                  <strong>📦 Fornecedores</strong><span>Alimentos, embalagens, bebidas, gelo e produtos de limpeza.</span>
-                </div>
-                <div class="solucao-menu-item" tabindex="0" role="menuitem">
-                  <strong>⚖️ Profissionais</strong><span>Contabilidade, documentação, licenças e consultorias.</span>
-                </div>
-                <p class="solucoes-menu-objetivo">Conectamos feirantes e organizadores a empresas que resolvem suas necessidades de forma rápida e prática.</p>
-              </div>
-            </li>
-            <li><a href="${link('index.html#institucional')}">Anuncie</a></li>
+            <li><a href="${link('https://eg-auto-news-cadastro.vercel.app/')}">Anuncie</a></li>
             <li><a href="https://www.youtube.com/@TvEgNews" class="botao-tvegnews" target="_blank" rel="noopener"><span>▶</span> TVegNews</a></li>
           </ul>
         </nav>
