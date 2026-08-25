@@ -7,3 +7,8 @@ function restaurarRota(req) {
   url.searchParams.delete('__route');
   req.url = `/api/${rota.replace(/^\/+/, '')}${url.search ? url.search : ''}`;
 }
+
+export default function handler(req, res) {
+  restaurarRota(req);
+  return app(req, res);
+}
